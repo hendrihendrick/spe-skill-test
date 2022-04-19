@@ -29,13 +29,13 @@ class SpeSkillTest
 		array_push($insertIntoArrayHaystack, $needle);
 		foreach ($insertIntoArrayHaystack as a $value)
 		{
-			
+
 		};
 	}
 
-	function blueOcean()
+	function blueOcean($insertToArray, $searchArray)
 	{
-		
+		array_push($insertToArray, $searchArray);
 	}
 }
 ?>
